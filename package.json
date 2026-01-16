@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "職務経歴書",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "textlint . && markdownlint **/*.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiji-azakami/resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/eiji-azakami/resume/issues"
+  },
+  "homepage": "https://github.com/eiji-azakami/resume#readme",
+  "devDependencies": {
+    "markdownlint-cli": "^0.47.0",
+    "textlint": "^15.5.0"
+  }
+}
